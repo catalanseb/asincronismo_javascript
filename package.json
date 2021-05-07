@@ -1,0 +1,24 @@
+{
+    "name": "asincronismo",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "callback": "node src/callback/index.js",
+        "callback:test": "node src/callback/test.js",
+        "promise": "node src/promise/index.js",
+        "promise:test": "node src/promise/test.js",
+        "async": "node src/async-await/index.js",
+        "async:test": "node src/async-await/test.js"
+    },
+    "keywords": [
+        "callbacks",
+        "promise",
+        "async"
+    ],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "xmlhttprequest": "^1.8.0"
+    }
+}
